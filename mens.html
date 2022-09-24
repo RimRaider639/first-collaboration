@@ -5,10 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #parent-box{
+            display:flex;
+            justify-content: space-around;
+            margin-top:100px;   
+        }
+        #parent-box>div>img{
+            width:50%;
+        }
+        #parent-box>div>p{
+            font-size: 35px;
+            color:#6e6e6e
+        }
+        #parent-box>div{
+            line-height: 15px;;
+        }
+    </style>
 </head>
 <body>
-    <p>i am in menspage</p>
-    <p>ashish</p>
-    <p>mensapge</p>
+  <div id="parent-box">
+    <div>
+        <img src="https://rukminim1.flixcart.com/image/498/598/keekmfk0-0/t-shirt/f/i/k/m-pact10171157-pause-original-imafv3abjfae3tnz.jpeg?q=50" alt="">
+        <h1>PAUSE</h1>
+        <p>Men Cotton Long Sleeves Shrug</p>
+        <h1>₹359 <del> ₹  1499</del><font color="#00ff2a"> -76%  </font>  </h1>
+    </div>
+    <div>
+        <img src="https://rukminim1.flixcart.com/image/612/612/kpzt7680/raincoat/f/w/p/xl-pen-rs-blk-penyan-original-imag445gjdmknhwj.jpeg?q=70" alt="">
+        <h1>JUBINATION</h1>
+        <p>Men Wool Sleevless Sweater Pack of 1</p>
+        <h1>₹799 <del> ₹  1499</del><font color="#00ff2a"> -47%  </font>  </h1>
+    </div>
+  </div>
 </body>
 </html>
